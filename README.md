@@ -32,20 +32,20 @@ Returns gender prediction and confidence metrics for a given name.
 Endpoint: GET /api/classify?name={name}
 
 Success Response (200 OK):
-JSON
 
- {
-   "status": "success",
-   "data": {
-     "name": "jeffery",
-     "gender": "male",
-     "probability": 0.99,
-     "sample_size": 1234,
-     "is_confident": true,
-     "processed_at": "2026-04-01T12:00:00Z"
-   }
- }
-
+    JSON
+     {
+       "status": "success",
+       "data": {
+         "name": "jeffery",
+         "gender": "male",
+         "probability": 0.99,
+         "sample_size": 1234,
+         "is_confident": true,
+         "processed_at": "2026-04-01T12:00:00Z"
+       }
+     }
+ 
 Error Responses:
 
     400 Bad Request: Name parameter is missing.
