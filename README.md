@@ -22,7 +22,7 @@ A professional, high-performance Node.js API that integrates with the Genderize.
 
     HTTP Client: Axios
 
-    Deployment: [Vercel]
+    Deployment: https://hng-stage-0-backend-jeffgenderize.vercel.app/
 
 📖 API Documentation
 1. Classify Name
@@ -39,10 +39,10 @@ Success Response (200 OK):
        "data": {
          "name": "jeffery",
          "gender": "male",
-         "probability": 0.99,
-         "sample_size": 1234,
+         "probability": 1,
+         "sample_size": 38656,
          "is_confident": true,
-         "processed_at": "2026-04-01T12:00:00Z"
+         "processed_at": "2026-04-13T17:05:58.337Z"
        }
      }
  
