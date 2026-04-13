@@ -55,7 +55,5 @@ app.get("/api/classify", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(
-    `Server live at http://localhost:${PORT}/api/classify?name=Jeffery`,
-  );
+  console.log(`Server is live`);
 });
